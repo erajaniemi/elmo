@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href https://erajaniemi.github.io --prod --output-path=../docs/",
+    "build": "ng build --base-href https://erajaniemi.github.io --prod",
     "test": "ng test",
     "lint": "ng lint",
     "deploy": "cp -a dist/elmo-github-io/* ../docs/",
