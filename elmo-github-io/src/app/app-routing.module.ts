@@ -5,8 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 const routes: Routes = [];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-  NgbModule.forRoot()
+  imports: [RouterModule.forRoot(routes),NgbModule.forRoot()],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
