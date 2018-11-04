@@ -1,0 +1,91 @@
+.pricingtable div.check {
+  background: url("/assets/check-circle.svg");
+}
+
+.pricingtable div.ruksi {
+  background: url("/assets/times-circle.svg");
+}
+
+.circle {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  margin: -98px 0 0 -98px;
+  z-index: 100;
+  width: 196px;
+  height: 196px;
+  border-radius: 98px;
+  border: 2px solid #fff;
+  opacity: 0;
+  -webkit-animation: circle-out 5s infinite;
+  -moz-animation: circle-out 5s infinite;
+  animation: circle-out 5s infinite;
+}
+
+@-webkit-keyframes circle-out {
+  0% {
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    margin: -83px 0 0 -83px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: -150px 0 0 -150px;
+  }
+}
+
+@-moz-keyframes circle-out {
+  0% {
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    margin: -83px 0 0 -83px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: -150px 0 0 -150px;
+  }
+}
+
+@keyframes circle-out {
+  0% {
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    margin: -83px 0 0 -83px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: -150px 0 0 -150px;
+  }
+}
+
+li {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
