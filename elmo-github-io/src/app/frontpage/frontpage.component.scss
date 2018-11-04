@@ -1,0 +1,244 @@
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+}
+
+.slogan {
+  color: #094e7d;
+  text-align: left;
+}
+
+.container-fluid {
+  padding-bottom: 100px;
+  height: 350px;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-knuut-normal {
+  color: #497aad;
+}
+
+@media (max-width: 767.98px) {
+  .happyimage {
+    height: 300px;
+  }
+}
+
+.center.first {
+  margin-top: -50px;
+}
+
+.center {
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 18px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2.card-title {
+  font-weight: 300;
+  font-size: 1.95em;
+  line-height: 1.5;
+  padding: 0 40px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767.98px) {
+  h2.card-title {
+    font-size: 1.5em;
+  }
+}
+
+div svg {
+  height: 140px;
+  fill: #bbb;
+  margin: 0 auto;
+  display: block;
+}
+
+div h2 {
+  text-align: left;
+  margin: 1em 0;
+}
+
+div p {
+  text-align: left;
+}
+
+.pricingtablecontainer {
+  overflow: scroll;
+}
+
+.pricingtable {
+  margin: 0 auto;
+}
+
+.pricingtable td,
+.pricingtable tr,
+.pricingtable th {
+  margin: 0;
+}
+
+.pricingtable tbody tr td:first-child {
+  max-width: 150px;
+  padding: 10px;
+  text-align: left;
+}
+
+.pricingtable thead th {
+  padding: 10px;
+  background: #eee;
+  width: 100px;
+  font-weight: 300;
+}
+
+.pricingtable tbody tr td {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.pricingtable tbody tr td {
+  border-bottom: 1px solid #eee;
+}
+
+.pricingtable div.check,
+.pricingtable div.ruksi {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+}
+
+.pricingtable div.check {
+  background: url("/assets/check-circle.svg");
+}
+
+.pricingtable div.ruksi {
+  background: url("/assets/times-circle.svg");
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  margin: -98px 0 0 -98px;
+  z-index: 100;
+  width: 196px;
+  height: 196px;
+  border-radius: 98px;
+  border: 2px solid #fff;
+  opacity: 0;
+  -webkit-animation: circle-out 5s infinite;
+  -moz-animation: circle-out 5s infinite;
+  animation: circle-out 5s infinite;
+}
+
+@-webkit-keyframes circle-out {
+  0% {
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    margin: -83px 0 0 -83px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: -150px 0 0 -150px;
+  }
+}
+
+@-moz-keyframes circle-out {
+  0% {
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    margin: -83px 0 0 -83px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: -150px 0 0 -150px;
+  }
+}
+
+@keyframes circle-out {
+  0% {
+    width: 166px;
+    height: 166px;
+    border-radius: 83px;
+    margin: -83px 0 0 -83px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: -150px 0 0 -150px;
+  }
+}
+
+.btn-primary {
+  margin-top: 40px;
+  padding: 20px;
+  display: inline-block;
+  font-size: 2rem;
+}

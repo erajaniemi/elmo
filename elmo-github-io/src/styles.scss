@@ -1,1 +1,295 @@
-/* You can add global styles to this file, and also import other style files */
+$footer-height: 75px;
+
+.knuut-bg-primary {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+
+  &.light {
+    background-color: #1ca4fc;
+    color: white;
+  }
+
+  &.normal {
+    background-color: #497aad;
+    color: white;
+  }
+
+  &.dark {
+    background-color: #094e7d;
+    color: white;
+  }
+}
+
+a.nav-link {
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
+  font-weight: 300;
+  color: #666;
+}
+
+article,
+aside,
+dialog,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+footer {
+  color: #fff;
+  margin-top: 4rem;
+  padding: 4rem;
+
+  h3 {
+    color: white;
+  }
+}
+
+.happyimage {
+  background-image: url('/assets/coffee.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+
+  &.img-together {
+    background-image: url('/assets/together01.jpg');
+  }
+
+  &.img-metro {
+    background-image: url('/assets/metro.jpg');
+  }
+
+  &.img-behappy {
+    background-image: url('/assets/behappy.jpg');
+  }
+
+  &.img-goldengate {
+    background-image: url('/assets/goldengate.jpg');
+  }
+
+  &.img-coffee {
+    background-image: url('/assets/coffee.jpg');
+  }
+
+  &.img-finland {
+    background-image: url('/assets/finland.jpg');
+  }
+
+  &.img-worktogether {
+    background-image: url('/assets/worktotegether.jpg');
+  }
+
+  &.img-safety {
+    background-image: url('/assets/safety.jpg');
+  }
+
+  &.img-workplace {
+    background-image: url('/assets/workplace01.jpg');
+  }
+
+  &.img-privacy {
+    background-image: url('/assets/privacy.jpg');
+  }
+
+  &.img-2-58 {
+    background-image: url('/assets/q-02-58.png');
+  }
+
+  &.img-1-8 {
+    background-image: url('/assets/img-1-8.png');
+  }
+
+  &.img-1-8 {
+    background-image: url('/assets/img-1-8.png');
+  }
+
+  &.img-3-8 {
+    background-image: url('/assets/img-3-8.png');
+  }
+
+  &.img-5-8 {
+    background-image: url('/assets/img-5-8.png');
+  }
+
+  &.img-6-8 {
+    background-image: url('/assets/img-6-8.png');
+  }
+
+  &.img-7-8 {
+    background-image: url('/assets/img-7-8.png');
+  }
+
+  &.img-trail-path {
+    background-image: url('/assets/rails-train-path-straight.jpg');
+  }
+
+  &.img-backgroung3 {
+    background-image: url('/assets/backgroung3.jpg');
+  }
+
+  &.img-identity {
+    background-image: url('/assets/identity.jpg');
+  }
+
+  &.img-johto {
+    background-image: url('/assets/johto.jpg');
+  }
+
+  &.img-success {
+    background-image: url('/assets/success.jpg');
+  }
+
+  &.img-survey {
+    background-image: url('/assets/survey.jpg');
+  }
+
+  &.img-question {
+    background-image: url('/assets/question.png');
+  }
+
+  &.img-kokkola {
+    background-image: url('/assets/kokkola.png');
+  }
+
+  &.img-jussi {
+    background-image: url('/assets/jussi.jpg');
+  }
+
+  &.img-code {
+    background-image: url('/assets/code.jpg');
+  }
+
+  &.img-scrum {
+    background-image: url('/assets/scrum.png');
+  }
+
+  &.img-uva {
+    background-image: url('/assets/uva.jpg');
+  }
+
+  &.img-pedagogi {
+    background-image: url('/assets/padagogi.jpg');
+  }
+
+  &.img-MCL {
+    background-image: url('/assets/scrambler-winter.jpg');
+  }
+
+  &.img-kpedu {
+    background-image: url('/assets/kpedu.jpg');
+  }
+
+  &.img-amis {
+    background-image: url('/assets/Scrambler.jpg');
+  }
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+  margin: 0;
+  padding: 0;
+  line-height: 110%;
+  color: #094e7d;
+  font-weight: 100;
+}
+
+$font-size: 1rem;
+
+.display-1 {
+  font-size: 3.5 * $font-size;
+}
+
+.display-2 {
+  font-size: 3 * $font-size;
+}
+
+.display-3 {
+  font-size: 2.5 * $font-size;
+}
+
+.display-4 {
+  font-size: 2 * $font-size;
+}
+
+.display-5 {
+  font-size: 1.666 * $font-size;
+}
+
+.display-6 {
+  font-size: 1.333 * $font-size;
+}
+
+@media (max-width: 575.98px) {
+  $font-size: 1rem;
+
+  .display-1 {
+    font-size: 3.5 * $font-size * 0.5;
+    text-align: left;
+  }
+
+  .display-2 {
+    font-size: 3 * $font-size * 0.5;
+  }
+
+  .display-3 {
+    font-size: 2.5 * $font-size * 0.5;
+  }
+
+  .display-4 {
+    font-size: 2 * $font-size * 0.666;
+  }
+
+  .display-5 {
+    font-size: 1.666 * $font-size * 0.75;
+  }
+
+  .display-6 {
+    font-size: 1.333 * $font-size * 0.85;
+  }
+}
+
+@media (max-width: 767.98px) {
+  $font-size: 1rem;
+
+  .display-1 {
+    font-size: 3.5 * $font-size * 0.75;
+    text-align: left;
+  }
+
+  .display-2 {
+    font-size: 3 * $font-size * 0.75;
+  }
+
+  .display-3 {
+    font-size: 2.5 * $font-size * 0.8;
+  }
+
+  .display-4 {
+    font-size: 2 * $font-size * 0.9;
+  }
+
+  .display-5 {
+    font-size: 1.666 * $font-size;
+  }
+
+  .display-6 {
+    font-size: 1.333 * $font-size;
+  }
+}
