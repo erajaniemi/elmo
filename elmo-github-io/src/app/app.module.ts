@@ -10,6 +10,7 @@ import { Ranua2019Component } from './ranua2019/ranua2019.component';
 import { TapahtumatComponent } from './tapahtumat/tapahtumat.component';
 import { UrkkiComponent } from './urkki/urkki.component';
 import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
+import { LegorobottiComponent } from './legorobotti/legorobotti.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
     Ranua2019Component,
     TapahtumatComponent,
     UrkkiComponent,
-    Kesaloma2018Component
+    Kesaloma2018Component,
+    LegorobottiComponent
   ],
   imports: [
     BrowserModule,
