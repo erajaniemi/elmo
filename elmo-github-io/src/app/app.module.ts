@@ -11,6 +11,7 @@ import { TapahtumatComponent } from './tapahtumat/tapahtumat.component';
 import { UrkkiComponent } from './urkki/urkki.component';
 import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
 import { LegorobottiComponent } from './legorobotti/legorobotti.component';
+import { Elmo7vuottaComponent } from './elmo7vuotta/elmo7vuotta.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LegorobottiComponent } from './legorobotti/legorobotti.component';
     TapahtumatComponent,
     UrkkiComponent,
     Kesaloma2018Component,
-    LegorobottiComponent
+    LegorobottiComponent,
+    Elmo7vuottaComponent
   ],
   imports: [
     BrowserModule,

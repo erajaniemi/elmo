@@ -8,11 +8,16 @@ import { TapahtumatComponent } from './tapahtumat/tapahtumat.component';
 import { UrkkiComponent } from './urkki/urkki.component';
 import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
 import { LegorobottiComponent } from './legorobotti/legorobotti.component';
+import { Elmo7vuottaComponent } from './elmo7vuotta/elmo7vuotta.component';
 
 const routes: Routes = [
   {
     path: '',
     component: FrontpageComponent
+  },
+  {
+    path: 'elmo-7-v',
+    component: Elmo7vuottaComponent
   },
   {
     path: 'olli',
