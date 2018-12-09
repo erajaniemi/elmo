@@ -12,6 +12,7 @@ import { UrkkiComponent } from './urkki/urkki.component';
 import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
 import { LegorobottiComponent } from './legorobotti/legorobotti.component';
 import { Elmo7vuottaComponent } from './elmo7vuotta/elmo7vuotta.component';
+import { Ruka2018Component } from './ruka2018/ruka2018.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { Elmo7vuottaComponent } from './elmo7vuotta/elmo7vuotta.component';
     UrkkiComponent,
     Kesaloma2018Component,
     LegorobottiComponent,
-    Elmo7vuottaComponent
+    Elmo7vuottaComponent,
+    Ruka2018Component
   ],
   imports: [
     BrowserModule,

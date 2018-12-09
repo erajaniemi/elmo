@@ -9,8 +9,13 @@ import { UrkkiComponent } from './urkki/urkki.component';
 import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
 import { LegorobottiComponent } from './legorobotti/legorobotti.component';
 import { Elmo7vuottaComponent } from './elmo7vuotta/elmo7vuotta.component';
+import { Ruka2018Component } from './ruka2018/ruka2018.component';
 
 const routes: Routes = [
+  {
+    path: 'ruka-2018',
+    component: Ruka2018Component
+  },
   {
     path: '',
     component: FrontpageComponent
