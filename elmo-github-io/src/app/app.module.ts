@@ -13,6 +13,7 @@ import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
 import { LegorobottiComponent } from './legorobotti/legorobotti.component';
 import { Elmo7vuottaComponent } from './elmo7vuotta/elmo7vuotta.component';
 import { Ruka2018Component } from './ruka2018/ruka2018.component';
+import { Annu2019Component } from './annu2019/annu2019.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { Ruka2018Component } from './ruka2018/ruka2018.component';
     Kesaloma2018Component,
     LegorobottiComponent,
     Elmo7vuottaComponent,
-    Ruka2018Component
+    Ruka2018Component,
+    Annu2019Component
   ],
   imports: [
     BrowserModule,

@@ -65,6 +65,35 @@ footer {
   background-size: cover;
   height: 600px;
 
+  &.annu-kysymys-1 {
+    background-image: url('/assets/annu/annu-01.jpg');
+  }
+
+  &.annu-kysymys-2 {
+    background-image: url('/assets/annu/annu-02.jpg');
+  }
+
+  &.annu-kysymys-3 {
+    background-image: url('/assets/annu/annu-03.jpg');
+  }
+
+  &.annu-kysymys-4 {
+    background-image: url('/assets/annu/annu-04.jpg');
+  }
+
+  &.annu-kysymys-5 {
+    background-image: url('/assets/annu/annu-05.jpg');
+  }
+
+  &.annu-kysymys-6 {
+    background-image: url('/assets/annu/annu-06.jpg');
+  }
+
+  &.annu-kysymys-7 {
+    background-image: url('/assets/annu/annu-07.jpg');
+  }
+
+
   &.img-kysymys-1 {
     background-image: url('/assets/img/IMG_0293.jpg');
   }

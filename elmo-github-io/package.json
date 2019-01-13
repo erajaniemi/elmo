@@ -7,7 +7,7 @@
     "build": "ng build --base-href https://erajaniemi.github.io --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "deploy": "npm run build ; cp -a dist/elmo-github-io/* ../",
+    "deploy": "npm run build ; rm ../*.js ; rm ../*.css ; cp -a dist/elmo-github-io/* ../",
     "e2e": "ng e2e"
   },
   "private": true,

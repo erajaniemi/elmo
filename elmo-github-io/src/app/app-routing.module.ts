@@ -10,6 +10,7 @@ import { Kesaloma2018Component } from './kesaloma2018/kesaloma2018.component';
 import { LegorobottiComponent } from './legorobotti/legorobotti.component';
 import { Elmo7vuottaComponent } from './elmo7vuotta/elmo7vuotta.component';
 import { Ruka2018Component } from './ruka2018/ruka2018.component';
+import { Annu2019Component } from './annu2019/annu2019.component';
 
 const routes: Routes = [
   {
@@ -47,6 +48,10 @@ const routes: Routes = [
   {
     path: 'legorobotti-2018',
     component: LegorobottiComponent
+  },
+  {
+    path: 'annu-2019',
+    component: Annu2019Component
   }
 ];
 
